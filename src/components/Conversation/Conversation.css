@@ -1,0 +1,52 @@
+.conversation-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0.7em 0;
+  cursor: pointer;
+}
+
+.conversation-name-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.conversation-name-icon {
+  min-height: 26px;
+  aspect-ratio: 1/1;
+  background: #07285d;
+  border-radius: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: auto;
+}
+.conversation-name-icon p {
+  margin: 0;
+  padding: 5px;
+  font-size: small;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.conversation-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.07em;
+  line-height: 2em;
+  vertical-align: middle;
+  margin-left: 1.5em;
+}
+
+.conversation-time {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.07em;
+  line-height: 2em;
+  vertical-align: middle;
+  margin-left: 1.5em;
+  color: #4fbfc0;
+}

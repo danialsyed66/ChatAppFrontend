@@ -1,0 +1,78 @@
+.conversations-container {
+  width: 18%;
+  margin: 1em 2em;
+  min-height: 85vh;
+  margin-right: 0;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+
+  min-width: max-content;
+}
+
+.conversations-header {
+  /* min-height: 15%; */
+  border-bottom: 1px solid rgb(205, 203, 203);
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+}
+
+.conversations-title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+.conversations-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+.conversations-count {
+  min-height: 26px;
+  aspect-ratio: 1/1;
+  background: linear-gradient(123.16deg, #4fbfc0 -0.82%, #07285d 100%);
+  border-radius: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: auto;
+}
+.conversations-count p {
+  margin: 0;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.conversations-archives-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 1em;
+  padding-bottom: 0.8em;
+}
+
+.conversations-archives-icon {
+  min-height: 26px;
+  aspect-ratio: 1/1;
+  background: #4fbfc0;
+  border-radius: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1.5em;
+  margin-left: 1em;
+}
+
+.conversations-archives-icon img {
+  margin: 0;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.conversations-archives-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.07em;
+  color: #4fbfc0;
+}

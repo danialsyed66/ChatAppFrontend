@@ -1,0 +1,153 @@
+.LOGIN_PAGE_TEXT {
+  width: 212px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 80px;
+  color: #224957;
+  text-align: center;
+  margin: auto;
+}
+.errorText {
+  color: red;
+}
+.main_div {
+  min-height: 100vh;
+}
+.LOGIN_PAGE_IMG {
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .LOGIN_PAGE_IMG {
+    display: none;
+  }
+  .main_div {
+    min-height: 100vh;
+  }
+}
+.css-ap4fib-MuiFormControl-root {
+  margin: 0px !important;
+}
+.css-ygkvo7-MuiButtonBase-root-MuiButton-root:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: rgba(25, 118, 210, 0.04);
+  border: 1px solid black !important;
+}
+
+.loader:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid green;
+  border-color: green transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Cart */
+
+.cart-item {
+  margin: 1.8rem 0rem;
+  padding: 0rem 0.7rem;
+}
+
+.cart-item a {
+  color: grey;
+}
+
+#delete_cart_item {
+  color: red;
+  background: white;
+  padding: 0.3rem 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+}
+
+/* User Profile */
+
+.avatar-profile {
+  height: 16rem;
+  width: 16rem;
+}
+.avatar {
+  display: inline-block;
+  margin-bottom: 0;
+  height: 3rem;
+  width: 3rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.background {
+  background-image: url(../../assets/Vectors.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+.login_p {
+  color: #808080;
+}
+.login_p:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.center-line {
+  border: 0.5px solid #ababab;
+  transform: rotate(90deg);
+}
+.logo-login {
+  width: '175px';
+  height: '167.31px';
+}
+.line-login {
+  border-left: '1px solid black';
+  height: '60%';
+}
+.div1-login {
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  height: '100%';
+}
+.otp-field {
+  width: 38px;
+  margin-right: 10px;
+  padding-left: 12px;
+  height: 40px;
+}
+
+.margin {
+  padding-left: 0;
+}
+.seperate {
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .margin {
+    padding-left: 1rem;
+  }
+  .seperate {
+    width: 50%;
+  }
+}
