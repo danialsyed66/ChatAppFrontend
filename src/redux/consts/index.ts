@@ -87,5 +87,6 @@ export type ActionTypes =
       payload: string;
     };
 
-export const SERVER_URI = 'http://localhost:8000';
-// export const SERVER_URI = 'https://price-getter-backend.herokuapp.com';
+// export const SERVER_URI = 'http://localhost:8000';
+export const SERVER_URI =
+  'https://chatapp-ts-backend.herokuapp.com/api/v1/conversations';
