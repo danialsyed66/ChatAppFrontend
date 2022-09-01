@@ -89,4 +89,4 @@ export type ActionTypes =
 
 // export const SERVER_URI = 'http://localhost:8000';
 export const SERVER_URI =
-  'https://chatapp-ts-backend.herokuapp.com/api/v1/conversations';
+  'https://chatapp-ts-backend.herokuapp.com';
